@@ -1,0 +1,423 @@
+/*
+   Date : Nov 3rd 2019
+   Author : Amine Aoudjehane
+   Description : ZucoraHome web page test.
+*/
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 767px) {
+    .navbar-brand img {
+        margin-left: 10px;
+    }
+    .top-left-text {
+        color: #f7f7f7;
+        letter-spacing: .05vw;
+        font-weight: 700;
+        font-size: .83vw;
+    }
+    .top-right-text a {
+        color: #f7f7f7;
+        letter-spacing: .05vw;
+        font-weight: 700;
+        font-size: .83vw;
+    }
+    .top-login-btn {
+        background: #a3acff;
+        padding: .6vw .9vw;
+        color: #36384b;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        text-decoration: none;
+        padding: 5px 15px;
+        display: inline-block;
+    }
+    .third-section {
+        margin-top: -150px;
+    }
+    .hiring-section {
+        margin-top: 20px;
+    }
+    .d-h-lg {
+        display: none;
+    }
+    .top-fix-position {
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+    }
+    .pt-90-custom {
+        padding-top: 125px !important;
+    }
+    .first-nav .nav-item {
+        padding-top: 30px;
+        padding-bottom: 30px;
+       
+    }
+    .first-nav .nav-item:hover {
+        height:98px;
+        background: #f7f7f7;
+        transition: all ease 1s;
+    }
+    
+    .first-nav .nav-item:hover p{ 
+        color: #434da0 !important;
+        transition: all ease 1s;
+    }
+    
+    .item1:hover {
+        color: inherit !important;
+        background: inherit !important;
+        transition: all ease 1s;
+    }
+    .item1 a:hover {
+        background: #64eeb0;
+        color: #fff !important;
+        transition: all ease 1s;
+    }
+    .px-7 {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    .ml-auto.top-right-text a:hover {
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-brand img {
+        width: 195px;
+    }
+    .text-left-sm-hide {
+        display: none;
+    }
+    .text-sm-centerr {
+        /*text-align: center !important;*/
+        display: none;
+    }
+    .top-right-text a {
+        color: #f7f7f7;
+        letter-spacing: .05vw;
+        font-weight: 700;
+    }
+    .top-login-btn {
+        background: #a3acff;
+        padding: .6vw .9vw;
+        color: #36384b;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        text-decoration: none;
+        padding: 5px 15px;
+        display: inline-block;
+    }
+    .top-fix-position {
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+    }
+    .pt-90-custom {
+        padding-top: 55px !important;
+    }
+    /*
+    .scroll-top {
+    display: none;
+    }*/
+}
+
+.menu{
+    height:98px;
+}
+
+
+.nav-container-main-purp {
+    background: #434da0;
+}
+
+.first-nav .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.first-nav .nav-item .nav-link.servicerequest {
+    color: #64eeb0;
+    border: 3px solid #64eeb0;
+    border-radius: 50px;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+}
+
+.servicerequestfooter {
+    color: #64eeb0;
+    border: 3px solid #64eeb0;
+    border-radius: 50px;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+}
+
+.u-zuc-mint {
+    color: #64eeb0;
+}
+
+.navbar-brand{
+     transition: all .2s ease-in-out;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+
+/*
+*/
+
+.nav-user {
+    background: #36384b;
+    padding: 0 8%;
+    font-size: .83vw;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-hor-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.flex-hor-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.flex-vert-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.u-uppercase {
+    text-transform: uppercase;
+}
+
+.nav-user .nav-slogan span {
+    margin-left: 5px;
+}
+
+.nav-user .nav-slogan {
+    color: #f7f7f7;
+    letter-spacing: .05vw;
+}
+
+.u-normal {
+    font-weight: 300;
+}
+
+.third-section h1 {
+    color: #434da0;
+    font-family: PublicoHeadline, aktiv-grotesk, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+.hiring-section h1 {
+    color: #434da0;
+    font-family: PublicoHeadline, aktiv-grotesk, Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+.hiring-section h2 {
+    color: #434da0;
+    font-family: PublicoHeadline, aktiv-grotesk, Helvetica, sans-serif;
+    font-size: 4em;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.hiring-section h3 {
+    color: dimgrey;
+    font-family: PublicoHeadline, aktiv-grotesk, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.hiring-section h4 {
+    color: #64eeb0;
+    font-family: PublicoHeadline, aktiv-grotesk, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.third-section p {
+    text-align: center;
+    font-size: 21px;
+    font-family: aktiv-grotesk, Helvetica, sans-serif;
+    padding: 1em;
+    color: #36384b;
+    line-height: 30px;
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: #64eeb0;
+    height: 5px;
+}
+
+#line {
+    width: 50px;
+    height: 40px;
+    margin: auto;
+}
+
+#line2 {
+    width: 50px;
+    height: 40px;
+    margin: 15px 5px 5px 5px;
+}
+
+.title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 8px;
+    position: relative;
+    width: 100%;
+}
+
+.u-font-serif {
+    font-family: PublicoHeadline, aktiv-grotesk, Helvetica, sans-serif;
+}
+
+.u-indigo {
+    color: #434da0;
+    font-size: 30px;
+}
+
+.row {
+    margin: 0.5rem;
+}
+
+.tag {
+    background: white;
+    border-radius: 0.3rem;
+    width: 100%;
+    box-shadow: 16px 12px 6px rgba(0, 0, 0, 0.2), 12px 8px 12px rgba(0, 0, 0, 0.14), 4px 4px 4px rgba(0, 0, 0, 0.12);
+}
+
+.tag::before {
+    background: white;
+    border-radius: 0.3rem;
+    height: 10rem;
+    width: 10rem;
+    z-index: -1;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    transform: translate(-51px, -1px) scale(0.70711, 0.70711) rotateZ(-45deg);
+}
+
+.tag:hover {
+    box-shadow: 12px 8px 2px rgba(0, 0, 0, 0.2), 12px 8px 12px rgba(0, 0, 0, 0.14), 4px 4px 4px rgba(0, 0, 0, 0.12);
+}
+
+
+/*Copyright*/
+
+.copyright {
+    background: #36384b;
+    padding: 1.4% 8%;
+    font-size: .83vw;
+    color: white;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 1.375;
+    font-family: Rubik, Arial, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background: #434da0;
+}
+
+@media only screen and (min-width: 1025px) .zuc-footer--brand-section .footer--social-icons-primary {
+    display: block;
+}
+
+.zuc-footer--brand-section .footer--social-icons-primary {
+    padding-top: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: none;
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) .social-link {
+    font-size: 1.3vw;
+}
+
+.social-link {
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding: 0 10px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.container-flex {
+    margin: 0px;
+    padding: 0px;
+}
+
+.scroll-top {
+    text-align: right;
+}
+
+.scroll-top a {
+    background-color: #129CF3;
+    padding: 20px;
+}
+
+.scroll-top a i {
+    color: #fff;
+    font-size: 25px;
+}
+
+#scrollbutton {
+    position: fixed;
+    bottom: -3px;
+    right: 10px;
+}
